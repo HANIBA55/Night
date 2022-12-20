@@ -11,5 +11,3 @@ class Student(Person):
     super().__init__(fname, lname)
     self.graduationyear = year
 
-x = Student("Mike", "Olsen", 2019)
-print(x.graduationyear)
